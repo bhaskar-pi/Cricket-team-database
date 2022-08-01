@@ -6,6 +6,8 @@ const path = require('path')
 const dbPath = path.join(__dirname,"cricketTeam.db");
 
 const app = express();
+module.exports = app;
+
 app.use(express.json());
 
 let db = null;
